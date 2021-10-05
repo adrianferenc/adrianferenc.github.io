@@ -9,32 +9,93 @@
       content="Adrian Ferenc - Full-Stack Developer based in Los Angeles"
     />
     <title>Adrian Ferenc | Full-Stack Developer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div id="bio">
       Hello, I'm Adrian. I am a Full-Stack Developer from Los Angeles. I help
-      solve complicated problems and provide creative solutions. With
+      solve complicated problems and provide creative solutions.
       <ul id="qualities">
-        <li style="list-style-type: '&#43;'; padding-inline-start: 1ch">
-          Over 10 years in mathematics research and teaching,
+        <li style="list-style-type: '+'; padding-inline-start: 1ch">
+          With over 10 years in mathematics research and teaching,
         </li>
-        <li style="list-style-type: '&#45;'; padding-inline-start: 1ch">
+        <li style="list-style-type: '-'; padding-inline-start: 1ch">
           A passion for solving complex problems,
         </li>
-        <li style="list-style-type: '&#215;'; padding-inline-start: 1ch">
+        <li style="list-style-type: '×'; padding-inline-start: 1ch">
           Strong communication skills developed from years of teaching,
         </li>
-        <li style="list-style-type: '&#247;'; padding-inline-start: 1ch">
+        <li style="list-style-type: '÷'; padding-inline-start: 1ch">
           And the ability to quickly and easily acquire and apply new
           information and skills,
         </li>
       </ul>
-      <strong
-        >I specialize in optimizing, simplifying, and innovating current
-        processes while making sure the user experience is clean and
-        clear.</strong
-      >
+      <div id="slug">
+        I focus on optimizing, simplifying, and innovating processes while
+        making sure the user experience is clean and clear.
+      </div>
+      <div id="technologies">
+        I love using the
+        <strong> MERN (MongoDB, Express, React, and Node.js) Stack</strong> and
+        other stacks.
+      </div>
     </div>
+
+    <ul id="projects">
+      <li>
+        <a
+          href="https://www.google.com"
+          data-bs-toggle="tooltip"
+          data-bs-placement="top"
+          title="Made with the MERN stack"
+        >
+          OAIS - The Online Atlas of Integer Sequences
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.google.com"
+          data-bs-toggle="tooltip"
+          data-bs-placement="top"
+          title="Made with MongoDb, Express, and Node.js"
+        >
+          Narrative Analyzer - A tool (designed for teachers) for anyone who
+          wants to use analytic tools to assess their own biases
+        </a>
+      </li>
+      <li>
+        <div class="dropdown">
+          <a
+            href = ""
+            id="variousGames"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Various Games made with vanilla JS
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="variousGames">
+            <li><a class="dropdown-item" href="Battleship">Battleship (with AI)</a></li>
+            <li><a class="dropdown-item" href="#">Connect the Four Fours</a></li>
+            <li><a class="dropdown-item" href="#">Memory</a></li>
+            <li><a class="dropdown-item" href="#">Baldermath (TK)</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+
+    <div id="contact">Contact Me: Email LinkedIn GitHub</div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
