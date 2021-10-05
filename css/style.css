@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spectral&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", serif;
+}
+
+#bio {
+  font-family: "Spectral", serif;
+  font-size: 3rem;
+  margin: 0 10rem;
+}
+
+#qualities {
+    margin-top: 0.5rem;
+}
