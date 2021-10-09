@@ -23,10 +23,11 @@
         <h2>About Me</h2>
         <div class="bio">
           <div>
-            <img id="triad" src="images/Logo.png" />
+            <img id="triad" src="public/Logo.png" />
             <div>
-              Hello, I'm Adrian. I am a Full-Stack Developer from Los Angeles. I
-              solve complicated problems and provide creative solutions.
+              Hello, I'm Adrian. I am a Full-Stack Developer and Math Phd from
+              Los Angeles. I solve complicated problems and provide creative
+              solutions.
               <ul id="qualities">
                 <li style="list-style-type: '+'; padding-inline-start: 1ch">
                   With over 10 years in mathematics research and teaching,
@@ -43,8 +44,8 @@
                 </li>
               </ul>
               <div id="slug">
-                My work focuses on optimizing, simplifying, and innovating processes
-                while making sure user experience is clean and clear.
+                My work focuses on optimizing, simplifying, and innovating
+                processes while making sure user experience is clean and clear.
               </div>
               <div id="technologies">
                 I love using the MERN (MongoDB, Express, React, and Node.js)
@@ -65,7 +66,7 @@
               data-placement="top"
               title="Made with the MERN stack"
             >
-              OAIS (The Online Atlas of Integer Sequences) - A love letter to
+              OAIS (The Online Atlas of Integer Sequences) - An homage to
               Neil Sloane's Online Encyclopedia of Integer Sequences that
               improves user experience
             </a>
@@ -86,58 +87,56 @@
             <div class="dropdown">
               <a
                 href=""
-                id="variousGames"
-                data-bs-toggle="dropdown"
-                data-bs-auto-close="true"
-                data-toggle-second="tooltip"
+                class="dropdown-toggle"
+                data-toggle="dropdown"
+                aria-haspopup="true"
                 aria-expanded="false"
-                title="Made with vanilla JavaScript"
               >
                 Games made with vanilla JS
               </a>
-              <ul class="dropdown-menu" aria-labelledby="variousGames">
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="https://adrianferenc.github.io/Battleship"
-                    >Battleship (with AI)</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="https://adrianferenc.github.io/Connect-the-Four-Fours"
-                    >Connect the Four Fours</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="https://adrianferenc.github.io/Memory-Game"
-                    >Memory</a
-                  >
-                </li>
-                <li><a class="dropdown-item" href="#">Baldermath (TK)</a></li>
-              </ul>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a
+                  class="dropdown-item"
+                  href="https://adrianferenc.github.io/Battleship"
+                  style="font-size: 0.5rem"
+                  >Battleship (with AI)</a
+                >
+
+                <a
+                  class="dropdown-item"
+                  href="https://adrianferenc.github.io/Connect-the-Four-Fours"
+                  style="font-size: 0.5rem"
+                  >Connect the Four Fours</a
+                >
+                <a
+                  class="dropdown-item"
+                  href="https://adrianferenc.github.io/Memory-Game"
+                  style="font-size: 0.5rem"
+                  >Memory</a
+                >
+              </div>
             </div>
           </li>
         </ul>
       </div>
 
       <div>
-        <h2>Contact Me</h2>
+        <h2>Connect</h2>
         <div id="contact" class="d-flex justify-content-around">
           <a href="mailto: adrianferenc@gmail.com">Email</a>
 
           <a href="https://www.linkedin.com/in/adrian-ferenc/">LinkedIn</a>
 
           <a href="https://github.com/adrianferenc">GitHub</a>
+
+          <a href="public/Adrian Ferenc Resume.pdf">Resume</a>
         </div>
       </div>
     </div>
 
     <footer>test</footer>
 
+    <script src="js/main.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -148,6 +147,5 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
-    <script src="js/main.js"></script>
   </body>
 </html>
