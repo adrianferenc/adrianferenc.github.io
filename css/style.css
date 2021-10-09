@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
-    margin: 5rem 10rem 6rem 3rem;
+  margin: 5rem 6rem 6rem 3rem;
 }
 
 h1,
@@ -16,13 +16,25 @@ h6 {
   font-family: "Oswald", serif;
 }
 
-#bio {
+.bio {
   font-family: "Spectral", serif;
-  font-size: 3.5vw;
+  font-size: 3vw;
+}
+
+#triad {
+  float: left;
+  margin-top: 1rem;
+  width: 35%;
+  height: auto;
+}
+
+#triad {
+  shape-outside: url(../images/Logo.png);
 }
 
 #qualities,
-#projects, #contact {
+#projects,
+#contact {
   font-family: "Spectral", serif;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -30,6 +42,6 @@ h6 {
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
