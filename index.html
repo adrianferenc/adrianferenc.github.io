@@ -4,148 +4,64 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Adrian Ferenc - Full-Stack Developer based in Los Angeles"
-    />
-    <title>Adrian Ferenc | Full-Stack Developer</title>
+    <title>Adrian Ferenc | Full-Stack Engineer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Josefin+Sans:wght@500&family=Oswald:wght@600&display=swap"
       rel="stylesheet"
-      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
-      crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div id="copy" class="d-flex flex-column justify-content-between">
-      <div id="about-me">
-        <h2>About Me</h2>
-        <div class="bio">
-          <div>
-            <img id="triad" src="public/Logo.png" />
-            <div>
-              Hello, I'm Adrian. I am a Full-Stack Developer and Math PhD from
-              Los Angeles. I solve complicated problems and provide creative
-              solutions.
-              <ul id="qualities">
-                <li style="list-style-type: '+'; padding-inline-start: 1ch">
-                  With over 10 years in mathematics research and teaching,
-                </li>
-                <li style="list-style-type: '-'; padding-inline-start: 1ch">
-                  A passion for solving complex problems,
-                </li>
-                <li style="list-style-type: '×'; padding-inline-start: 1ch">
-                  Strong communication skills developed from years of teaching,
-                </li>
-                <li style="list-style-type: '÷'; padding-inline-start: 1ch">
-                  And the ability to quickly and easily acquire and apply new
-                  information and skills,
-                </li>
-              </ul>
-              <div id="slug">
-                My work focuses on optimizing, simplifying, and innovating
-                processes while making sure user experience is clean and clear.
-              </div>
-              <div id="technologies">
-                I love using the MERN (MongoDB, Express, React, and Node.js)
-                Stack, but have experience with several others.
-              </div>
-            </div>
-          </div>
+    <div id="home-page" class="full-page">
+      <div id="left-block">
+        <div>
+          <div id="sidebar">Engineer. Mathematician. Educator.</div>
+        </div>
+        <div id="name">
+          <span class="name-text">ADRIAN</span>
+          <span class="name-text">FERENC</span>
+          <span>PhD</span>
         </div>
       </div>
-
-      <div>
-        <h2>Projects</h2>
-        <ul id="projects" class="list-group list-group-flush">
-          <li class="list-group-item">
-            <a
-              href="https://online-atlas-integer-sequences.herokuapp.com"
-              data-toggle="tooltip"
-              data-placement="top"
-              title="Made with the MERN stack"
-            >
-              OAIS (The Online Atlas of Integer Sequences) - An homage to
-              Neil Sloane's Online Encyclopedia of Integer Sequences that
-              improves user experience
-            </a>
-            <em><a href="http://www.oeis.org">(Visit the OEIS here</a>)</em>
-          </li>
-          <li class="list-group-item">
-            <a
-              href="https://narrative-analyzer.herokuapp.com/"
-              data-bs-toggle="tooltip"
-              data-bs-placement="top"
-              title="Made with MongoDb, Express, and Node.js"
-            >
-              Narrative Analyzer - A tool (designed for teachers) for anyone who
-              wants to use analytic tools to assess their own biases
-            </a>
-          </li>
-          <li class="list-group-item">
-            <div class="dropdown">
-              <a
-                href=""
-                class="dropdown-toggle"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
+      <div id="right-block">
+        <div id="right-top"><img src="LA1.png" /></div>
+        <div id="right-bottom">
+          <a
+            href="about-me.html"
+            class="info-box"
+            style="align-items: flex-start"
+          >
+            <div class="info-box-title">ABOUT ME</div>
+          </a>
+          <a
+            href="portfolio.html"
+            id="portfolio"
+            class="info-box"
+            style="align-items: center"
+          >
+            <div class="info-box-title" style="word-break: break-word">
+              <span style="display: inline-block; white-space: nowrap"
+                >PORT</span
+              ><span style="display: inline-block; white-space: nowrap"
+                >FOLIO</span
               >
-                Games made with vanilla JS
-              </a>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a
-                  class="dropdown-item"
-                  href="https://adrianferenc.github.io/Battleship"
-                  style="font-size: 0.5rem"
-                  >Battleship (with AI)</a
-                >
-
-                <a
-                  class="dropdown-item"
-                  href="https://adrianferenc.github.io/Connect-the-Four-Fours"
-                  style="font-size: 0.5rem"
-                  >Connect the Four Fours</a
-                >
-                <a
-                  class="dropdown-item"
-                  href="https://adrianferenc.github.io/Memory-Game"
-                  style="font-size: 0.5rem"
-                  >Memory</a
-                >
-              </div>
             </div>
-          </li>
-        </ul>
-      </div>
+          </a>
 
-      <div>
-        <h2>Connect</h2>
-        <div id="contact" class="d-flex justify-content-around">
-          <a href="mailto: adrianferenc@gmail.com">Email</a>
-
-          <a href="https://www.linkedin.com/in/adrian-ferenc/">LinkedIn</a>
-
-          <a href="https://github.com/adrianferenc">GitHub</a>
-
-          <a href="public/Adrian Ferenc Resume.pdf">Resume</a>
+          <a href="connect.html" class="info-box" style="align-items: flex-end">
+            <div class="info-box-title" style="word-break: break-word">
+              <span style="display: inline-block; white-space: nowrap">CON</span
+              ><span style="display: inline-block; white-space: nowrap"
+                >NECT</span
+              >
+            </div>
+          </a>
         </div>
       </div>
     </div>
-
-    <footer>test</footer>
-
-    <script src="js/main.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
