@@ -303,6 +303,7 @@ nav a:hover {
 .portfolio-item-title {
   font-weight: bold;
   color: white;
+  font-size: 125%;
 }
 
 .portfolio-item-title:hover {
